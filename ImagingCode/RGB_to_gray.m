@@ -2,8 +2,8 @@ function RGB_to_gray(RGBfile,Grayfile)
 %convert RGB24.avi to Grayscale.avi
 %12/31/2020 @ YueqingZhou
 
-% RGB  = ['D:\ImageData\R904\2020_12_30\15_01_02_SignalObj_2D','\11msDown.avi']
-% Gray = ['D:\ImageData\R904\2020_12_30\15_01_02_SignalObj_2D','\12msDown.avi']
+
+
 %--read obj
 obj = VideoReader(RGBfile);
 obj2 = VideoReader(RGBfile);
