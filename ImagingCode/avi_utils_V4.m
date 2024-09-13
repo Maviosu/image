@@ -1,7 +1,7 @@
 function avi_utils_V4(original_path, sn, spatialbin, temporalbin)
 % combine files, and downsample spatially and temporally
 % avi_utils(pwd, 'xxxx.avi';
-% by Cheng, 2018/10/04;
+% by Yueqing, 2020/10/04;
 
 if ~exist('spatialbin', 'var') || isempty(spatialbin)
     spatialbin = 1;
