@@ -22,7 +22,7 @@ for f = 1:length(fns)
     tfn = fns{f};
     vreader = VideoReader(tfn);
     FrameRate = vreader.FrameRate;
-    % modified by Cheng at 03/22/2019 introduced round
+   
     % nfrm = vreader.Duration * FrameRate;  %% modified by XJ: nfrm = vreader.Duration * FrameRate;
     nfrm = round(vreader.Duration * FrameRate);  %% modified by XJ: nfrm = vreader.Duration * FrameRate;
 % % % %     if mod(nfrm, temporalbin) ~= 0 && f ~= length(fns)
