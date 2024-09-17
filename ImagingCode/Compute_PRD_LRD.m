@@ -3,10 +3,10 @@ cccc
 cd //mbi-jk-labserv.win.ad.jhu.edu/Yueqing/LVC
 load 'rotate_field'
 maxpeak_plat_degree                                 = circ_ang2rad( allrat_PRD_pfield');
-maxpeak_obj_degree                                  = circ_ang2rad( allrat_LRD_pfieldab_circle2');
+maxpeak_obj_degree                                  = circ_ang2rad( allrat_LRD_pfieldab');
 platformPeak                                        = allrat_PRD_pfield';
-objectPeak                                          = allrat_LRD_pfieldab_circle2';
-maxpeak_obj_binnumber                               = allrat_LRD_pfieldab_circle2_bin';
+objectPeak                                          = allrat_LRD_pfieldab';
+maxpeak_obj_binnumber                               = allrat_LRD_pfieldab_bin';
 maxpeak_plat_binnumber                              = allrat_PRD_pfield_bin';
 
 maxpeak_obj_binnumber(isnan(objectPeak))    = [];
