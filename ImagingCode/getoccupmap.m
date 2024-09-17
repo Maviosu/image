@@ -9,12 +9,6 @@ function [occmap,code] = getoccupmap(txy, xbounds, ybounds)
 %   Output:
 %       occmap(mat|vec) - depends on whether its [t x y] or [t x]
 %       code(struct) - contains xcode, ycode or just xcode
-% 
-%   Notes: 
-% 
-%   See also 
-% 
-%   by Cheng Wang (cwchengwang@gmail.com), 2012-04-09.
 
 if isempty(txy)
     occmap = [];
