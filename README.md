@@ -5,4 +5,4 @@
 	3. Customized function for computing LRD and PRD.
 	
 % Please use Place_Field.m to generate rate map, please include other functions in the folder as well
-% 
+% for circular analysis, please add circular toolbox package into matlab path
